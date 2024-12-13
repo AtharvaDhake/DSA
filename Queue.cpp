@@ -110,7 +110,6 @@ int main()
             break;
         case 3:
             q.display();
-            cout << endl;
             break;
         };
 
