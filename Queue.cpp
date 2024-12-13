@@ -44,8 +44,10 @@ public:
         {
             cout << "underflow" << endl;
         }
-        else if (front == -1 && rear == -1)
+        else if (front == rear)
         {
+            front = -1;
+            rear = -1;
             cout << "queue is empty";
         }
         else
